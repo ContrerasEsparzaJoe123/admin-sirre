@@ -13,7 +13,7 @@ const Handlebars = require("handlebars");
 var dogapi = require("dogapi");
 var options = {
   api_key: "ed13090bfde9541c52336ac5038bc30f",
-  app_key: "c7784efaeb1b071be6fcbbd93b49c0475fdab3c1",
+  app_key: "b6bdff71e24013ae6f3139d81efe1b496989e430",
   // if you are on the Datadog EU site, you need to overwrite the default value of api_host key:
   // api_host: "app.datadoghq.eu"
 };
@@ -123,4 +123,3 @@ app.listen(
   PORT,
   console.log(`Server running in ${process.env.NODE_ENV} mode on port ${PORT}`)
 );
-
